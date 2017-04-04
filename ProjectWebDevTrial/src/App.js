@@ -6,7 +6,7 @@ import './App.css';
 
     class App extends Component {
     componentDidMount() {
-        /* global google b:true */
+       
         const input = document.getElementById('autocomplete')
         this.autocomplete = new google.maps.places.Autocomplete(input, { types: ['geocode'] })
     }
